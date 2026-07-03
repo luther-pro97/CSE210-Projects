@@ -1,11 +1,11 @@
-using System;
+﻿using System;
 
 class Program
 {
     static void Main(string[] args)
     {
         Console.Write("What is your grade percentage? ");
-        int grade = int.Parse(Console.ReadLine());
+        int grade = int.Parse(Console.ReadLine()!);
 
         string letter = "";
 
