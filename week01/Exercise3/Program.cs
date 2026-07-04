@@ -3,7 +3,7 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {
+    { // code
         Random randomGenerator = new Random();
         int magicNumber = randomGenerator.Next(1, 101);
 
