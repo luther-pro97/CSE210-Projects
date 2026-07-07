@@ -47,3 +47,35 @@ class Program
         Console.WriteLine($"{name}, the square of your number is {square}.");
     }
 }
+
+/*string name = "luther"
+int age = "25"
+
+class Student 
+{
+   public string name ;
+   public int age;
+}
+ class Car
+{
+ public string model;
+ public string color;
+ public string speed;   
+}
+
+class Book
+{
+    public string title;
+    public string author;
+    
+}
+
+Student student1 = new Student();
+
+student1.name = "luther";
+student1.age = 25;
+
+Console.WriteLine(student1.name);
+Console.WriteLine(student1.age);
+
+
